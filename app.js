@@ -82,9 +82,12 @@ document.querySelector('#quizForm').addEventListener('submit',event=>{
   feedback.scrollIntoView({behavior:'smooth',block:'center'});
 });
 
-document.querySelector('#feedbackForm').addEventListener('submit',event=>{
+document.querySelector('#feedbackForm').addEventListener('submit',async event=>{
   event.preventDefault();
-  const data=new FormData(event.currentTarget);
+  const form=event.currentTarget;
+  const data=new FormData(form);
+  const button=form.querySelector('button[type="submit"]');
+  const status=document.querySelector('#feedbackStatus');
   const minutes=Math.max(1,Math.round((Date.now()-courseStartedAt)/60000));
   const fields=[
     ['Name',data.get('name')],['Email',data.get('email')],['Role',data.get('role')],['Industry experience',data.get('experience')],
@@ -93,9 +96,31 @@ document.querySelector('#feedbackForm').addEventListener('submit',event=>{
     ['Most useful',data.get('useful')],['Suggested improvements',data.get('improve')],['Paid learning interest',data.get('paid_interest')],
     ['Follow-up permitted',data.get('follow_up')||'No'],['Device',navigator.userAgent]
   ];
-  const body=fields.map(([label,value])=>`${label}:\n${value}`).join('\n\n');
-  const subject=`BuildCompass beta feedback: ${data.get('name')}`;
-  window.location.href=`mailto:info@buildcompass.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const submission=Object.fromEntries(fields);
+  submission._subject=`BuildCompass beta feedback: ${data.get('name')}`;
+  submission._template='table';
+  submission._captcha='false';
+  button.disabled=true;
+  button.textContent='Sending feedback...';
+  status.className='form-status';
+  status.textContent='Sending your feedback securely to BuildCompass.';
+  try{
+    const response=await fetch('https://formsubmit.co/ajax/info@buildcompass.com.au',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(submission)
+    });
+    if(!response.ok)throw new Error('Feedback service unavailable');
+    status.className='form-status good';
+    status.textContent='Thank you. Your feedback has been sent to BuildCompass.';
+    form.reset();
+  }catch(error){
+    status.className='form-status bad';
+    status.textContent='Your feedback could not be sent. Please try again or email info@buildcompass.com.au.';
+  }finally{
+    button.disabled=false;
+    button.textContent='Send feedback';
+  }
 });
 
 show(0);
