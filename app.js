@@ -65,19 +65,16 @@ document.querySelector('#quizForm').addEventListener('submit',event=>{
     feedback.className='feedback bad';
     feedback.textContent=`Please answer all five questions. ${unanswered} ${unanswered===1?'question is':'questions are'} still unanswered.`;
     completion.hidden=true;
-    document.querySelector('#betaFeedback').hidden=true;
   }else if(score>=4){
     feedback.className='feedback good';
     feedback.textContent=`You scored ${score} out of 5. You have demonstrated a practical understanding of the Part 3.3 drainage framework.`;
     completion.hidden=false;
-    document.querySelector('#betaFeedback').hidden=false;
     latestScore=score;
     localStorage.setItem('buildcompass-part33-complete','true');
   }else{
     feedback.className='feedback bad';
     feedback.textContent=`You scored ${score} out of 5. Review the explanations above, then try again. You need four correct answers to complete the learning.`;
     completion.hidden=true;
-    document.querySelector('#betaFeedback').hidden=true;
   }
   feedback.scrollIntoView({behavior:'smooth',block:'center'});
 });
