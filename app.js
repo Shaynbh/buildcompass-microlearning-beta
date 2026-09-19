@@ -1,123 +1,75 @@
-const lessons=[...document.querySelectorAll('.lesson')];
+'use strict';
+const state={current:0,started:Date.now(),intro:null,site:null,scope:{building:'class1',risk:'yes',element:'susceptible'},scopeReviewed:false,connection:'perimeter',noticeOpen:new Set(),noticeChecked:false,handover:new Set(),answers:{},grade:null,feedback:{},feedbackStatus:'',feedbackBusy:false};
+const content=document.querySelector('#lessonContent');
 const nav=document.querySelector('#lessonNav');
-const dots=document.querySelector('#dots');
-const next=document.querySelector('#next');
-const prev=document.querySelector('#prev');
-const bar=document.querySelector('#progressBar');
-const label=document.querySelector('#progressLabel');
-let current=0;
-const courseStartedAt=Date.now();
-let latestScore=0;
-
-lessons.forEach((lesson,index)=>{
-  const button=document.createElement('button');
-  button.textContent=`${String(index+1).padStart(2,'0')}  ${lesson.dataset.title}`;
-  button.addEventListener('click',()=>show(index));
-  nav.appendChild(button);
-  const dot=document.createElement('i');
-  dots.appendChild(dot);
-});
-
-function show(index){
-  current=Math.max(0,Math.min(lessons.length-1,index));
-  lessons.forEach((lesson,i)=>lesson.classList.toggle('active',i===current));
-  [...nav.children].forEach((item,i)=>item.classList.toggle('active',i===current));
-  [...dots.children].forEach((item,i)=>item.classList.toggle('active',i===current));
-  label.textContent=`${current+1} of ${lessons.length}`;
-  bar.style.width=`${((current+1)/lessons.length)*100}%`;
-  prev.disabled=current===0;
-  next.disabled=current===lessons.length-1;
-  next.textContent=current===lessons.length-2?'Knowledge check':'Next lesson';
-  window.scrollTo({top:0,behavior:'smooth'});
+const $=selector=>document.querySelector(selector);
+const feedbackNames=['name','email','role','clarity','length','exercises','feedback','follow_up','website'];
+function rememberFeedback(){const form=$('#feedbackForm');if(!form)return;for(const name of feedbackNames){const field=form.elements.namedItem(name);state.feedback[name]=field.type==='checkbox'?field.checked:field.value;}}
+function textResult(selector,text){const el=$(selector);if(!el)return;el.hidden=false;el.textContent=text;}
+function render(focus=false){
+  const lesson=lessons[state.current];
+  content.innerHTML=`<article class="lesson"><p class="eyebrow">${String(state.current+1).padStart(2,'0')} · ${lesson.title}</p><h2 id="lessonTitle" tabindex="-1">${lesson.heading}</h2>${lesson.body}<p class="source-note">Source: <a href="${SOURCE}" target="_blank" rel="noopener">NCC 2022 Housing Provisions, ${lesson.clause}</a>. Read with applicable jurisdictional variations.</p></article>`;
+  nav.innerHTML=lessons.map((lesson,i)=>`<button type="button" data-lesson="${i}" ${i===state.current?'aria-current="step"':''}>${String(i+1).padStart(2,'0')} ${lesson.title}</button>`).join('');
+  $('#progressLabel').textContent=`Lesson ${state.current+1} of ${lessons.length}`;$('#lessonCount').textContent=`${state.current+1} / ${lessons.length}`;
+  $('#progressBar').style.width=`${(state.current+1)/lessons.length*100}%`;$('[role="progressbar"]').setAttribute('aria-valuenow',state.current+1);
+  $('#prev').disabled=state.current===0;$('#next').disabled=state.current===lessons.length-1;
+  if($('#introResult')&&state.intro)showIntro(state.intro);
+  if($('#scopeForm')){for(const [name,value] of Object.entries(state.scope))$('#scopeForm').elements.namedItem(name).value=value;if(state.scopeReviewed)textResult('#scopeResult',evaluateScope(state.scope));}
+  if($('#systemDetail'))showConnection(state.connection);
+  if($('#siteResult')&&state.site)showSiteAnswer(state.site);
+  if($('#noticeCards')){$('#noticeCards').innerHTML=noticeEntries.map((entry,i)=>`<div class="notice-entry"><button type="button" data-notice="${i}" aria-expanded="${state.noticeOpen.has(i)}" aria-controls="noticeEntry${i}"><span>${String(i+1).padStart(2,'0')} · ${entry.title}</span><span aria-hidden="true">${state.noticeOpen.has(i)?'−':'+'}</span></button><p id="noticeEntry${i}" ${state.noticeOpen.has(i)?'':'hidden'}>${entry.body}</p></div>`).join('');if(state.noticeChecked)checkNotice();}
+  if($('#handoverProgress')){content.querySelectorAll('[name="handover"]').forEach(el=>{el.checked=state.handover.has(el.value)});updateHandover();}
+  if($('#quizForm'))renderQuiz();
+  if($('#feedbackForm')){for(const name of feedbackNames){const field=$('#feedbackForm').elements.namedItem(name);if(field.type==='checkbox')field.checked=Boolean(state.feedback[name]);else field.value=state.feedback[name]||'';}updateConsent();$('#feedbackStatus').textContent=state.feedbackStatus;$('#feedbackForm button[type="submit"]').disabled=state.feedbackBusy;}
+  if(focus){$('#lessonTitle').focus({preventScroll:true});$('#lessonTitle').scrollIntoView({block:'start',behavior:'instant'});}
 }
-
-next.addEventListener('click',()=>show(current+1));
-prev.addEventListener('click',()=>show(current-1));
-document.addEventListener('keydown',event=>{
-  if(event.key==='ArrowRight')show(current+1);
-  if(event.key==='ArrowLeft')show(current-1);
-});
-
-document.querySelector('#quizForm').addEventListener('submit',event=>{
-  event.preventDefault();
-  const form=event.currentTarget;
-  const formData=new FormData(form);
-  const feedback=document.querySelector('#feedback');
-  const completion=document.querySelector('#completion');
-  const answers={q1:'b',q2:'b',q3:'c',q4:'c',q5:'c'};
-  const explanations={q1:'Part 3.3 coordinates surface water, subsoil water and stormwater drainage.',q2:'The general requirement is 50 mm over the first metre. The 25 mm provision only applies in specified conditions.',q3:'A required subsoil drain needs a uniform fall of at least 1:300.',q4:'A 90 mm Class 6 UPVC stormwater drain beneath soil requires at least 100 mm of cover.',q5:'The full water pathway must be verified, including falls, clearances, overflow behaviour and lawful discharge.'};
-  let score=0;
-  let unanswered=0;
-  Object.entries(answers).forEach(([question,correctAnswer])=>{
-    const fieldset=form.querySelector(`[data-question="${question}"]`);
-    const response=formData.get(question);
-    const questionFeedback=fieldset.querySelector('.question-feedback');
-    const isCorrect=response===correctAnswer;
-    if(!response)unanswered+=1;
-    if(isCorrect)score+=1;
-    fieldset.classList.toggle('correct',isCorrect);
-    fieldset.classList.toggle('incorrect',!isCorrect);
-    questionFeedback.hidden=false;
-    questionFeedback.textContent=isCorrect?`Correct. ${explanations[question]}`:`Review this point. ${explanations[question]}`;
-  });
-  feedback.hidden=false;
-  if(unanswered){
-    feedback.className='feedback bad';
-    feedback.textContent=`Please answer all five questions. ${unanswered} ${unanswered===1?'question is':'questions are'} still unanswered.`;
-    completion.hidden=true;
-  }else if(score>=4){
-    feedback.className='feedback good';
-    feedback.textContent=`You scored ${score} out of 5. You have demonstrated a practical understanding of the Part 3.3 drainage framework.`;
-    completion.hidden=false;
-    latestScore=score;
-    localStorage.setItem('buildcompass-part33-complete','true');
-  }else{
-    feedback.className='feedback bad';
-    feedback.textContent=`You scored ${score} out of 5. Review the explanations above, then try again. You need four correct answers to complete the learning.`;
-    completion.hidden=true;
-  }
-  feedback.scrollIntoView({behavior:'smooth',block:'center'});
-});
-
-document.querySelector('#feedbackForm').addEventListener('submit',async event=>{
-  event.preventDefault();
-  const form=event.currentTarget;
-  const data=new FormData(form);
-  const button=form.querySelector('button[type="submit"]');
-  const status=document.querySelector('#feedbackStatus');
-  const minutes=Math.max(1,Math.round((Date.now()-courseStartedAt)/60000));
-  const fields=[
-    ['Name',data.get('name')],['Email',data.get('email')],['Role',data.get('role')],['Industry experience',data.get('experience')],
-    ['Quiz score',`${latestScore} out of 5`],['Completion time',`${minutes} minute${minutes===1?'':'s'}`],
-    ['Learning clarity',data.get('clarity')],['Module length',data.get('length')],['Question quality',data.get('questions')],
-    ['Most useful',data.get('useful')],['Suggested improvements',data.get('improve')],['Paid learning interest',data.get('paid_interest')],
-    ['Follow-up permitted',data.get('follow_up')||'No'],['Device',navigator.userAgent]
+function show(index){if(!Number.isInteger(index)||index<0||index>=lessons.length)throw new Error('Choose a lesson from 1 to 7.');rememberFeedback();state.current=index;render(true);return readState();}
+function showIntro(choice){state.intro=choice;content.querySelectorAll('[data-intro-answer]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.introAnswer===choice)));textResult('#introResult',choice==='no'?'Correct. The notice documents the system. It does not establish that every connection was installed correctly or remains effective.':'Not on its own. Inspect the installed details and check their documentation. The notice is one part of the system.');}
+function showSiteAnswer(choice){state.site=choice;content.querySelectorAll('[data-site-answer]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.siteAnswer===choice)));textResult('#siteResult',choice==='coordinate'?'Correct. Resolve the new detail and its evidence before proceeding. The earlier record does not automatically cover later alterations.':'The earlier record does not automatically cover a new penetration. Coordinate the new detail and its supporting evidence first.');}
+function showConnection(key){if(!Object.hasOwn(systemDetails,key))throw new Error('Choose a listed connection.');state.connection=key;const detail=systemDetails[key];$('#systemDetail').innerHTML=`<h3>${detail.title}</h3><p>${detail.text}</p><div class="system-check"><strong>On-site review</strong><p>${detail.check}</p></div>`;content.querySelectorAll('[data-system]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.system===key)));}
+function reviewScope(input){validateObject(input,['building','risk','element']);if(!['class1','class10','other'].includes(input.building)||!['yes','no','unknown'].includes(input.risk)||!['susceptible','resistant','unknown'].includes(input.element))throw new Error('Choose one of the listed scenario values.');state.scope={...input};state.scopeReviewed=true;return evaluateScope(state.scope);}
+function checkNotice(){state.noticeChecked=true;textResult('#noticeResult','Missing: the chemical’s life expectancy from the appropriate register label. A system name and date do not supply that information. Check all four notice requirements under clause 3.4.3.');}
+function updateHandover(){$('#handoverProgress').textContent=`${state.handover.size} of 5 review prompts checked. This is not a compliance sign-off.`;}
+function renderQuiz(){$('#quizForm').innerHTML=questions.map((q,i)=>`<fieldset class="quiz-question" id="question${q.id}"><legend><span class="question-number">${i+1} / ${questions.length}</span>${q.question}</legend><div class="quiz-options">${q.options.map((option,j)=>`<label><input type="radio" name="${q.id}" value="${j}" ${state.answers[q.id]===j?'checked':''}><span>${option}</span></label>`).join('')}</div><p id="explanation${q.id}" class="answer-explanation" hidden></p></fieldset>`).join('')+'<button type="submit">Check my answers</button>';if(state.grade)showGrade(false);}
+function submitQuiz(){state.grade=scoreAnswers(state.answers);showGrade(true);return {...state.grade,completed:state.grade.passed};}
+function showGrade(focus){
+  const grade=state.grade;if(!grade)return;const result=$('#quizResult');result.hidden=false;result.className='assessment';
+  if(grade.unanswered.length){result.textContent=`Please answer all six questions. ${grade.unanswered.length} ${grade.unanswered.length===1?'question needs':'questions need'} an answer.`;grade.unanswered.forEach(id=>$('#question'+id).classList.add('needs-answer'));}
+  else{result.classList.add(grade.passed?'passed':'review');result.innerHTML=`<h3>${grade.score} / ${grade.total} correct</h3><p>${grade.passed?'Knowledge check complete.':'Keep reviewing. Five correct answers completes this beta knowledge check.'}</p><p class="note">Read the explanations below each question. This result is a learning check, not a qualification, CPD certificate or compliance sign-off.</p>`;questions.forEach(q=>{const correct=state.answers[q.id]===q.answer;const el=$('#explanation'+q.id);el.hidden=false;el.className=`answer-explanation ${correct?'correct':'incorrect'}`;el.textContent=`${correct?'Correct.':'Review this answer.'} ${q.explanation} Source: ${q.source}.`;});$('#retryQuiz').hidden=false;}
+  if(focus){result.focus({preventScroll:true});result.scrollIntoView({block:'center',behavior:'instant'});}
+}
+function clearGrade(){state.grade=null;const result=$('#quizResult');if(result)result.hidden=true;if($('#retryQuiz'))$('#retryQuiz').hidden=true;content.querySelectorAll('.answer-explanation').forEach(el=>el.hidden=true);content.querySelectorAll('.needs-answer').forEach(el=>el.classList.remove('needs-answer'));}
+function updateConsent(){const form=$('#feedbackForm');if(form)form.elements.namedItem('email').required=form.elements.namedItem('follow_up').checked;}
+function feedbackPayload(){rememberFeedback();const f=state.feedback;const grade=state.grade;return {_subject:'BuildCompass Part 3.4 learning beta feedback',module:'NCC 2022 Part 3.4 Termite Risk Management',name:(f.name||'').trim()||'Not provided',email:(f.email||'').trim()||'Not provided',role:(f.role||'').trim()||'Not provided',clarity:f.clarity||'Not selected',length:f.length||'Not selected',exercises:f.exercises||'Not selected',feedback:(f.feedback||'').trim(),follow_up:f.follow_up?'Permission given to contact about this feedback':'No follow-up requested',quiz_result:grade&&!grade.unanswered.length?`${grade.score}/${grade.total}; ${grade.passed?'complete':'review needed'}`:'Not yet submitted in full',approximate_minutes:Math.max(1,Math.round((Date.now()-state.started)/60000))};}
+function feedbackMessage(message){state.feedbackStatus=message;if($('#feedbackStatus'))$('#feedbackStatus').textContent=message;}
+async function sendFeedback(form){
+  if(state.feedbackBusy)return;updateConsent();if(!form.reportValidity())return;const payload=feedbackPayload();
+  if(state.feedback.website){feedbackMessage('Unable to submit this entry. Please reload and try again.');return;}
+  if(!payload.feedback){feedbackMessage('Please add your feedback before sending.');form.elements.namedItem('feedback').focus();return;}
+  state.feedbackBusy=true;form.querySelector('button[type="submit"]').disabled=true;feedbackMessage('Sending your feedback...');
+  const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),20000);
+  try{const response=await fetch('https://formsubmit.co/ajax/info@buildcompass.com.au',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:controller.signal});const data=await response.json();if(!response.ok||!(data.success===true||data.success==='true'))throw new Error('Forwarding service did not accept the feedback.');feedbackMessage('Feedback accepted by the forwarding service. Thank you. Inbox delivery is not confirmed here.');}
+  catch(error){feedbackMessage('Feedback could not be confirmed as sent. Your entries are still here. Save a copy below and email info@buildcompass.com.au.');}
+  finally{clearTimeout(timeout);state.feedbackBusy=false;const submit=$('#feedbackForm button[type="submit"]');if(submit)submit.disabled=false;}
+}
+function downloadFeedback(){const payload=feedbackPayload();const text=Object.entries(payload).filter(([key])=>key!=='_subject').map(([key,value])=>`${key.replaceAll('_',' ')}: ${value}`).join('\n\n');const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='buildcompass-part-3-4-feedback.txt';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);feedbackMessage('A feedback copy has been prepared for download. No email was sent by saving it.');}
+nav.addEventListener('click',event=>{const button=event.target.closest('[data-lesson]');if(button)show(Number(button.dataset.lesson));});
+$('#prev').addEventListener('click',()=>show(state.current-1));$('#next').addEventListener('click',()=>show(state.current+1));$('.brand').addEventListener('click',event=>{event.preventDefault();show(0);});
+content.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;if(button.dataset.introAnswer)showIntro(button.dataset.introAnswer);else if(button.dataset.siteAnswer)showSiteAnswer(button.dataset.siteAnswer);else if(button.dataset.system)showConnection(button.dataset.system);else if(button.dataset.notice!==undefined){const index=Number(button.dataset.notice);if(state.noticeOpen.has(index))state.noticeOpen.delete(index);else state.noticeOpen.add(index);button.setAttribute('aria-expanded',String(state.noticeOpen.has(index)));button.lastElementChild.textContent=state.noticeOpen.has(index)?'−':'+';$('#noticeEntry'+index).hidden=!state.noticeOpen.has(index);}else if(button.id==='checkNotice')checkNotice();else if(button.id==='retryQuiz'){rememberFeedback();state.answers={};state.grade=null;render();$('#quizForm input').focus();}else if(button.id==='downloadFeedback')downloadFeedback();});
+content.addEventListener('change',event=>{const input=event.target;if(input.closest('#quizForm')&&input.type==='radio'){state.answers[input.name]=Number(input.value);clearGrade();}else if(input.name==='handover'){if(input.checked)state.handover.add(input.value);else state.handover.delete(input.value);updateHandover();}else if(input.closest('#scopeForm')){state.scope[input.name]=input.value;state.scopeReviewed=false;$('#scopeResult').hidden=true;}else if(input.closest('#feedbackForm')){updateConsent();rememberFeedback();}});
+content.addEventListener('input',event=>{if(event.target.closest('#feedbackForm'))rememberFeedback();});
+content.addEventListener('submit',event=>{event.preventDefault();if(event.target.id==='scopeForm')textResult('#scopeResult',reviewScope(Object.fromEntries(new FormData(event.target))));else if(event.target.id==='quizForm')submitQuiz();else if(event.target.id==='feedbackForm')void sendFeedback(event.target);});
+function validateObject(value,keys){if(!value||typeof value!=='object'||Array.isArray(value)||Object.keys(value).length!==keys.length||keys.some(key=>!Object.hasOwn(value,key)))throw new Error('Provide exactly the documented fields.');}
+function readState(){return {section:state.current+1,title:lessons[state.current].title,sections:lessons.map((lesson,i)=>({section:i+1,title:lesson.title})),questionsAnswered:Object.keys(state.answers).length,result:state.grade?{...state.grade}:null,feedbackAvailableAtEnd:true};}
+function registerLearningTools(){
+  const context=document.modelContext;if(!context?.registerTool)return;const lifecycle=new AbortController();
+  const definitions=[
+    {name:'get_learning_state',title:'Read learning progress',description:'Read the current section and knowledge-check status. Does not change the lesson or reveal the answer key.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true,untrustedContentHint:false},execute(input){validateObject(input,[]);return readState();}},
+    {name:'open_learning_section',title:'Open a learning section',description:'Navigate to one of the seven visible learning sections. Does not complete the quiz or send feedback.',inputSchema:{type:'object',properties:{section:{type:'integer',minimum:1,maximum:7}},required:['section'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){validateObject(input,['section']);if(!Number.isInteger(input.section)||input.section<1||input.section>7)throw new Error('Section must be an integer from 1 to 7.');return show(input.section-1);}},
+    {name:'review_termite_application',title:'Review an application scenario',description:'Set the three values in the educational application exercise, open section 2 and show its explanation. This is not a project compliance determination.',inputSchema:{type:'object',properties:{building:{type:'string',enum:['class1','class10','other']},risk:{type:'string',enum:['yes','no','unknown']},element:{type:'string',enum:['susceptible','resistant','unknown']}},required:['building','risk','element'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){const explanation=reviewScope(input);show(1);return {section:2,scenario:{...state.scope},explanation};}},
+    {name:'submit_learning_answers',title:'Submit six learning answers',description:'Submit one answer index, 0 to 2, for each of the six visible quiz questions, open the final section and display the scored result and explanations. Does not send feedback or certify compliance.',inputSchema:{type:'object',properties:Object.fromEntries(questions.map(q=>[q.id,{type:'integer',minimum:0,maximum:2}])),required:questions.map(q=>q.id),additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){validateObject(input,questions.map(q=>q.id));if(questions.some(q=>!Number.isInteger(input[q.id])||input[q.id]<0||input[q.id]>=q.options.length))throw new Error('Each question requires an answer index of 0, 1 or 2.');state.answers={...input};state.grade=null;show(6);return submitQuiz();}}
   ];
-  const submission=Object.fromEntries(fields);
-  submission._subject=`BuildCompass beta feedback: ${data.get('name')}`;
-  submission._template='table';
-  submission._captcha='false';
-  button.disabled=true;
-  button.textContent='Sending feedback...';
-  status.className='form-status';
-  status.textContent='Sending your feedback securely to BuildCompass.';
-  try{
-    const response=await fetch('https://formsubmit.co/ajax/info@buildcompass.com.au',{
-      method:'POST',
-      headers:{'Content-Type':'application/json','Accept':'application/json'},
-      body:JSON.stringify(submission)
-    });
-    if(!response.ok)throw new Error('Feedback service unavailable');
-    status.className='form-status good';
-    status.textContent='Thank you. Your feedback has been sent to BuildCompass.';
-    form.reset();
-  }catch(error){
-    status.className='form-status bad';
-    status.textContent='Your feedback could not be sent. Please try again or email info@buildcompass.com.au.';
-  }finally{
-    button.disabled=false;
-    button.textContent='Send feedback';
-  }
-});
-
-show(0);
+  for(const definition of definitions){try{Promise.resolve(context.registerTool(definition,{signal:lifecycle.signal})).catch(()=>{});}catch(error){/* Unsupported registration must not interrupt the lesson. */}}
+  window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
+}
+render();registerLearningTools();
