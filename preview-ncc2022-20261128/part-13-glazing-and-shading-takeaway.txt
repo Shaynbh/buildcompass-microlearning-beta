@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Balance winter heat and summer shade
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 13.3.1–13.3.4
+
+1. Use the correct assessment route: The national Part 13.3 route applies through H6D2(1)(b) to the stated buildings. NSW, NT and Tasmania have flagged variations. Do not transplant one table result into a different assessment method or jurisdiction. Keep the nominated route visible when discussing a glazing substitution.
+Source: 13.3.1
+
+2. Use whole-system performance: The calculations use total-system U-value and SHGC, covering the combined glass and frame. A centre-of-glass value is not the same input. U-value describes heat transfer, while SHGC describes solar heat gain. A product can improve one measure while changing the other, so compare both against the selected design.
+Source: 13.3.2–13.3.3
+
+3. Check winter by storey: The winter method applies in climate zones 2–8 and assesses conductance relative to solar heat gain for each storey, including a mezzanine. It uses factors for orientation, room, floor and frame conditions. A colder-climate window cannot be assessed only by how much summer sun it blocks.
+Source: 13.3.2
+
+4. Check summer with the actual openings: The summer method applies in climate zones 1–7 and compares aggregate solar heat gain with the storey allowance. Ventilation opening area and floor type affect the allowance table. The notes limit the design ventilation percentage attributed to a window because its frame obstructs part of the opening.
+Source: 13.3.3
+
+5. Shade the full glazing geometry: Permanent projecting shade must meet the stated side-extension or equivalent-reveal arrangement. Alternative external devices must restrict at least 80% of summer solar radiation and be readily operable if adjustable. Interior curtains are not automatically the external shading arrangement described by this clause.
+Source: 13.3.4
+
+6. Treat substitutions as design changes: Changing frame colour, window size, orientation, floor finish or shading can change calculation inputs. A similar-looking product is not necessarily equivalent. Retain the original assessed values and obtain a revised check for the proposed combination instead of approving a substitution on a single marketing claim.
+Source: 13.3.2–13.3.4
+
+Practice: For a simple geometry exercise, a projection P is 600 mm and height H is 1500 mm. What is P/H?
+Worked answer: 0.4. 600 ÷ 1500 = 0.4. The actual measuring points must follow Figure 13.3.2b; this ratio alone is not the glazing assessment.
+
+Further study: Complete winter/summer formula transcription, factor tables and original P/H geometry require final verification; this lesson does not implement a compliance calculator.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=369
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

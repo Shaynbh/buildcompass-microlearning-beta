@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Finish the wall without trapping water
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 7.5.1–7.5.8
+
+1. Identify the cladding material: Part 7.5 contains particular timber, fibre-cement, hardboard and plywood arrangements. It is not approval for every proprietary facade. Board and sheet products use different support and fixing rules. Confirm material, thickness, wind classification and the relevant installation pathway before applying a familiar detail.
+Source: 7.5.1–7.5.2
+
+2. Timber profiles manage their own laps: Splayed weatherboard laps differ by timber type. The stated minimums include 30 mm for hardwood, cypress and treated pine, 20 mm for western red cedar and 25 mm for Baltic pine. Tongue-and-groove boards laid horizontally or diagonally have the tongue uppermost, and orientation affects the sarking requirement.
+Source: 7.5.2
+
+3. Board widths affect fixings: Fibre-cement and hardboard planks have their own minimum thicknesses and lap requirements. Boards up to 130 mm wide use one fixing at each stud in the stated arrangement; wider boards use two. The fixing position must avoid unintentionally fastening through the thin edge of the board below.
+Source: 7.5.3
+
+4. Sheets and soffits need the right table: Sheet wall cladding and eaves or soffit linings have separate tables for supports and fasteners. Edge distances, wind class and sheet thickness remain part of the selection. A soffit exposed to wind is not merely decorative lining; changing its support spacing needs a supported installation detail.
+Source: 7.5.4–7.5.5
+
+5. Drain the opening flashings: Flashings are required around openings subject to the clause and its eaves exception. They must discharge outside the cladding. The detail includes lap, fixing and extension requirements, with extension beyond reveals where practicable. A concealed flashing that turns water into the wall is not fixed by a neat external sealant bead.
+Source: 7.5.6
+
+6. Maintain ground and top clearances: Ground clearance varies with conditions: the national provision distinguishes low-rainfall or sandy well-drained sites, suitably sloping impermeable surfaces and other situations. Other termite and drainage requirements still apply. The cladding-bottom and capping details must be coordinated with the floor framing, membrane and adjacent finished levels.
+Source: 7.5.7–7.5.8
+
+Practice: Six equal board exposures are 150 mm each. What is their combined vertical coverage in mm?
+Worked answer: 900. 6 × 150 = 900 mm. Exposure is not the same as full board width; the selected lap must also be allowed for.
+
+Further study: Full fixing schedules, material exceptions and original flashing/capping figures need final visual verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=176
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

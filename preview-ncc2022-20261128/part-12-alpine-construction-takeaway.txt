@@ -1,0 +1,31 @@
+BUILD COMPASS AU
+Keep the exit usable in snow
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 12.1.1–12.1.2; 12.2.1–12.2.4
+
+1. Confirm the alpine application: Part 12.2 applies through H7D3 and the defined alpine-area scope. It does not replace the structural actions, energy-efficiency or general stair provisions. The other ancillary topics, including bushfire, flood and swimming pools, have Volume Two pathways outside this Part. Establish the location and governing route first.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 12.1.1–12.1.2; 12.1; 12.2.1
+
+2. Let doors open despite snow: An external door subject to snow build-up must open inwards or slide, with its threshold at least 900 mm above the adjoining surface under this detail. Class 1b also requires the specified inward-opening sign. Coordinate the approach, landing and door operation rather than treating the threshold as an isolated dimension.
+Source: 12.2.2
+
+3. Keep the external egress surface open: External trafficable structures used for egress require the specified expanded-mesh floor surface. Required barriers have sides at least 75% open. These details reduce snow accumulation while retaining the separate fall-protection and structural requirements. An open-looking decorative pattern is not proof of the required open proportion.
+Source: 12.2.3(a)–(b)
+
+4. Use the alpine ramp and stair options: An alpine ramp serving an external doorway must not be steeper than 1:12. Stairs use either the referenced general table or the alpine alternative table. The alternative has its own riser, going and slope-relationship limits; choosing a shallower riser alone does not establish the complete arrangement.
+Source: 12.2.3(c)–(d)
+
+5. Allow snow space beside taller walls: For external-wall portions more than 3.6 m above natural ground, the boundary distance is at least 2.5 m plus 100 mm for each 300 mm or part above 3.6 m. The relevant boundary exclusion still applies. Round an incomplete increment upward rather than treating it as no additional height.
+Source: 12.2.4(a)
+
+6. Avoid trapping snow at the exit: Doorways into vehicle-access courts between wings require the specified 4 m clear distance. A doorway facing a snow-trapping feature or sufficiently high embankment also needs the stated clearance. Review the landscape and neighbouring features as well as the building footprint because later works can change the exit condition.
+Source: 12.2.4(b)–(c)
+
+Practice: A relevant wall portion is 4.0 m above natural ground. How many 300 mm increments or parts lie above 3.6 m?
+Worked answer: 2. 400 mm requires two increments, giving an additional 200 mm and a total 2.7 m under this rule.
+
+Further study: Original clearance figures, the defined alpine boundary and jurisdiction application require final review.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=313
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

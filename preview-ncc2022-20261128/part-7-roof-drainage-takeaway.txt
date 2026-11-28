@@ -1,0 +1,33 @@
+BUILD COMPASS AU
+Give heavy rain a safe way out
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 7.4.1–7.4.7
+
+1. Check the drainage route: Part 7.4 provides a limited eaves-gutter and downpipe pathway under H2D6. Other drainage arrangements use the applicable alternative, including AS/NZS 3500. Do not treat the eaves-gutter tables as a box-gutter design. Start with roof catchments, rainfall location and a clearly identified discharge arrangement.
+Source: 7.4.1
+
+2. Use two rainfall checks: Gutter and downpipe sizing uses the five-minute rainfall intensity for a 5% annual exceedance probability. Overflow is assessed using the 1% event. Those are different design inputs. A completed ordinary-flow calculation is not evidence that an overflowing gutter will keep water out of the building.
+Source: 7.4.3
+
+3. Install fall and support: Eaves gutters need a fall of at least 1:500 and supporting brackets at ends, corners and the specified maximum spacing of 1.2 m. Drainage capacity also depends on the selected gutter and outlet. Flat spots or sagging sections can defeat a design that was adequate on paper.
+Source: 7.4.4
+
+4. Place downpipes with the catchment: A downpipe must not serve more than 12 m of gutter under this arrangement and should be located close to valley discharge where practicable. Its size follows the applicable table and roof catchment. The 12 m limit is not a substitute for checking the area feeding that length of gutter.
+Source: 7.4.5
+
+5. Continuous overflow has defined details: Continuous overflow options include slots, a controlled gap behind the gutter and the specified front-bead relationship to the fascia. Their capacity depends on exact geometry, not simply the presence of holes. For example, the controlled-back-gap option specifies a minimum gap and spacer arrangement as well as gutter-back height.
+Source: 7.4.6
+
+6. Dedicated outlets have their own limits: End-stop, inverted-nozzle, front-weir and rainhead overflow arrangements each have defined dimensions and capacities. Their location must discharge safely rather than direct water into the wall. Do not add the capacity of an imagined opening or assume that a downpipe itself is a dedicated overflow device.
+Source: 7.4.7
+
+7. Select compatible drainage materials: Gutters and downpipes must meet the listed material and product requirements. Compatibility also matters at roof and flashing interfaces, including runoff from upstream materials. Lead is not suitable where the roof water is collected for drinking. Select the drainage material together with the roof covering instead of treating the gutter as an isolated finish choice.
+Source: 7.4.2
+
+Practice: At a minimum fall of 1:500, how much drop in mm is needed over a 10,000 mm gutter run?
+Worked answer: 20. 10,000 ÷ 500 = 20 mm. Outlet, capacity, overflow and installation checks remain separate.
+
+Further study: Rainfall tables, complete catchment sizing and all overflow geometries require source-table and visual verification. This is not a hydraulic sizing calculator.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=166
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

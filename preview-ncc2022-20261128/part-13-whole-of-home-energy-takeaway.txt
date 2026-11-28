@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Count the services as well as the shell
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 13.6.1–13.6.2
+
+1. Separate fabric from whole-of-home: Part 13.6 applies through H6D2(2) to the stated Class 1 and conditioned Class 10a buildings. It is separate from the fabric and glazing checks. The source flags NSW, NT and Tasmania variations. A good envelope result is not automatically a completed whole-of-home assessment.
+Source: 13.6.1
+
+2. Use the defined floor area: The floor-area adjustment uses area measured within the inside faces of the external walls and includes the stated conditioned attached Class 10a area. The table notes address rounding where values lie between ranges. The gross footprint used for a sales brochure may not be the required assessment area.
+Source: 13.6.2; Table 13.6.2a
+
+3. Select the equipment efficiency factors: The method draws the main space-conditioning and water-heater efficiency factor from the ABCB Standard for Whole-of-Home Efficiency Factors. The actual equipment choice matters. Do not replace that factor with a retail star label or guessed annual bill; use the referenced method and retain the selected equipment evidence.
+Source: 13.6.2(1)
+
+4. Include pool and spa pumps: Pool and spa pump contributions use their separate volume rounding and factor tables. Pool volume is taken to the nearest 1000 litres and spa volume to the nearest 100 litres. Pump rating and jurisdiction affect the relevant entries. Omitting an installed pump changes the assessment inputs.
+Source: 13.6.2(2)–(3)
+
+5. Use the actual photovoltaic capacity: Installed on-site photovoltaic capacity is a defined input in the method. A future intention to add panels is not the same as the documented installed capacity. Coordinate the electrical design and final equipment schedule so the assessment does not rely on a system that disappears during procurement.
+Source: 13.6.2(1)
+
+6. Compare against the correct allowance: The allowance uses the stated floor-area and energy factors, including climate and jurisdiction. Keep the full equation and its units in the approved calculation. This lesson explains the inputs but does not present a simplified score as a compliance result; changing equipment requires the supported calculation to be updated.
+Source: 13.6.2; Table 13.6.2b
+
+Practice: For a factor exercise, 200 m² multiplied by the listed 0.0093 area adjustment gives what value?
+Worked answer: 1.86. 200 × 0.0093 = 1.86. This is one input calculation only, not the whole-of-home result.
+
+Further study: The referenced Whole-of-Home Efficiency Factors standard, complete equation and jurisdiction substitutions remain required verification before release. No financial saving or compliance outcome is promised.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=403
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

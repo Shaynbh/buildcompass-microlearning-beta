@@ -1,0 +1,31 @@
+BUILD COMPASS AU
+Keep the thermal envelope continuous
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 13.1; 13.2.1–13.2.7
+
+1. Establish the applicable energy route: Section 13 must be applied through Volume Two H6D2 and the jurisdiction schedules. NSW, NT, Tasmania and South Australia have relevant flags in the source. This lesson teaches the national 2022 provisions, not a statement that they apply unchanged to every current approval. Identify the building class, climate zone and assessment route first.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 13.1.1–13.1.2; 13.1; 13.2.1
+
+2. Install insulation as a continuous layer: Required insulation must comply with AS/NZS 4859.1 and abut or overlap adjoining insulation as specified, including at supporting members. It must not compromise safe operation of services. Bulk insulation needs its intended position and thickness; compressing it into an undersized cavity can reduce the achieved performance.
+Source: 13.2.2
+
+3. Select roof and ceiling values together: Roof and ceiling tables depend on climate and the stated roof conditions. Metal framing introduces thermal-bridging requirements with defined alternative solutions. Loss of insulation around services also has a separate adjustment provision. Do not select an R-value from one favourable row while ignoring the roof colour, arrangement or framing assumptions.
+Source: 13.2.3
+
+4. Coordinate roof lights with daylight: The national roof-light provision limits total area to 5% of the served floor area and sets combined system U-value and SHGC requirements. Shaft geometry affects the SHGC table. The daylight provision is a separate check: meeting a minimum light area does not remove the energy limits on the same opening.
+Source: 13.2.4
+
+5. Read wall construction and bridges: Wall insulation selection distinguishes heavyweight and lightweight construction, climate and other table inputs. Metal-framed walls have thermal-bridging provisions and, in the specified direct-contact arrangement, a minimum R0.2 thermal break. Insulation outside the primary layer must also be coordinated with condensation and water-control requirements.
+Source: 13.2.5
+
+6. Close the envelope at floors and garages: Floors over enclosed and unenclosed spaces use different tables. Slab edges, heated slabs and climate-specific slab insulation have separate conditions, including a waffle-pod exception in the stated clause. An attached Class 10a building must either achieve the required external-fabric performance or be separated by construction that does.
+Source: 13.2.6–13.2.7
+
+Practice: Under the national roof-light area rule, what is 5% of a 40 m² served room?
+Worked answer: 2. 40 × 0.05 = 2 m². System performance, shaft geometry and the applicable assessment route remain separate.
+
+Further study: All climate-specific fabric tables, roof insulation-loss adjustments and jurisdiction substitutions need final detailed verification. No whole-of-home compliance calculation is produced by this lesson.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=330
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

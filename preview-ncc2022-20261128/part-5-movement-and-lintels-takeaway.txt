@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Leave room for movement. Support the opening.
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 5.2.5; 5.3.7; 5.4.4; 5.6.7–5.6.8
+
+1. Read the support route: Steel lintels follow this Part or H1D6(3). The prescriptive detail limits masonry above the opening to 3 m, requires at least three courses above it and keeps the long leg of an angle vertical. It also limits masonry overhang beyond the horizontal leg to 25 mm. A span-table entry is only one part of that arrangement.
+Source: 5.6.7
+
+2. Bearing changes at one metre: A clear span no more than 1 m needs at least 100 mm bearing at each end. Above 1 m, the minimum is 150 mm at each end. Measure the clear opening rather than the overall steel length. These minimum bearings do not establish that the chosen section, masonry or support is otherwise suitable.
+Source: 5.6.7(b)(v)
+
+3. Read both span columns: Table 5.6.7a separates openings with up to 600 mm of masonry above from those with more than 600 mm. For the 90 × 90 × 6 equal angle, the listed maxima are 3000 mm and 2650 mm respectively. The table specifies at least grade 300 MPa. Do not use the more favourable column after the height above the opening has changed.
+Source: Table 5.6.7a
+
+4. Coating is part of the lintel: The durability table links lintel class to protective material. Decorative coatings do not count towards its requirements. Cutting, welding or damage modifies the original protection and requires restoration to an equivalent level. A tidy paint touch-up is not automatically evidence that the original protective system has been restored.
+Source: Table 5.6.7b
+
+5. Set out joints deliberately: The national articulation provision excludes walls on A or S soil classifications. For the stated other cases, joints are at least 10 mm wide. Continuous walls with small or no openings have a 6 m spacing limit plus corner conditions. Walls with openings more than 900 × 900 mm have a 5 m limit and joints within 1.2 m of openings. Height changes over 20%, thickness changes and material junctions introduce further triggers.
+Source: 5.2.5; 5.3.7; 5.4.4; 5.6.8(1)–(3)
+
+6. Keep movement joints able to move: Articulation joints must not be adjacent to arched openings. Flexible sealant is supported during installation by a compressible filler or purpose-made backer rod. The figures show different wall arrangements; a rigid mortar-filled gap is not the specified flexible joint. Coordinate tie placement at both sides without unintentionally locking the movement detail.
+Source: 5.6.8(3)–(4)
+
+Practice: A 1200 mm clear opening has 150 mm bearing at each end. What is the simple overall lintel length in millimetres?
+Worked answer: 1500. 1200 + 150 + 150 = 1500 mm. Section selection and other requirements remain separate.
+
+Further study: Boundary cases not expressly resolved by wording, full articulation figures and project structural design remain for the relevant designer. No whole-Part completion is claimed.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=96
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

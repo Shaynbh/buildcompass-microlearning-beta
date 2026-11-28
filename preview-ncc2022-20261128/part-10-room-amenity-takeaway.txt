@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Make the room work after fit-out
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 10.3.1; 10.4.1–10.4.2; 10.5.1–10.5.2
+
+1. Measure the required room height: The national minimum is 2.4 m for a habitable room other than a kitchen. Kitchens and the listed non-habitable spaces use 2.1 m. Stairs, ramps and landings use 2 m measured vertically from the specified surface or nosing line. A beam or bulkhead must be considered in the actual room geometry.
+Source: 10.3.1
+
+2. Check sloping ceilings by area: Sloping ceilings have an area-based rule. The required height applies over at least two-thirds of the relevant floor area, with a separate habitable-attic value. Areas with a ceiling below 1.5 m are excluded when making this calculation. A single high point in the room is not enough.
+Source: 10.3.1(1)(e)–(2)
+
+3. Provide the required facilities: The facilities provisions address food preparation and washing, bathing, laundry, a closet pan and a washbasin. The arrangement includes conditions for laundry appliances and facilities located separately from the main dwelling. A room name on the plan is not evidence that the required facility and its usable connection are actually provided.
+Source: 10.4.1
+
+4. Allow access to a sanitary compartment: A sanitary-compartment door must open outwards, slide or be readily removable from outside unless the specified clear space between the closet pan and doorway is available. The national dimension is 1.2 m, measured using the figure. This provision helps access if a person falls behind the door.
+Source: 10.4.2
+
+5. Calculate natural light from the right area: Natural light to a habitable room can use windows with light-transmitting area at least 10% of floor area, roof lights at least 3%, or the stated proportional combination. The openings must face the permitted external space. Count transmitting area rather than assuming the entire frame opening is glass.
+Source: 10.5.1
+
+6. Borrowed light has two checks: Borrowed light uses an opening between rooms and sufficient external light for their combined area under the clause. The adjoining room cannot be treated as an unlimited light source. Artificial lighting provisions apply to the listed spaces and interact with energy-efficiency requirements; providing a lamp does not automatically replace required habitable-room daylight.
+Source: 10.5.1–10.5.2
+
+Practice: A 20 m² habitable room uses the window-only natural-light route. What minimum transmitting area in m² is 10%?
+Worked answer: 2. 20 × 0.10 = 2 m². External-space, borrowed-light and other applicable conditions remain separate.
+
+Further study: Original room-height and sanitary-door figures, detached-facility conditions and all lighting alternatives require final review.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=263
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

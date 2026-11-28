@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Keep sound paths out of the separating wall
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 10.7.1–10.7.8
+
+1. Identify the separating wall: The national provision applies between Class 1 buildings and between a Class 1 building and an unassociated Class 10a building. It requires an airborne rating of Rw + Ctr at least 50. Northern Territory has a Part 10.7 variation. An internal bedroom partition within one dwelling is not automatically this separating-wall case.
+Source: 10.7.1
+
+2. Room adjacency can require discontinuity: Discontinuous construction is required where the specified bathroom, toilet, laundry or kitchen in one dwelling adjoins a habitable room other than a kitchen in the next. The room layout therefore affects the wall detail. A later kitchen relocation can introduce a requirement even if the separating wall position is unchanged.
+Source: 10.7.1(1)(b)
+
+3. Use a complete rated arrangement: The rating is established through the specified laboratory method or the listed wall configurations and construction provisions. Rw alone is not the stated Rw + Ctr criterion. Keep the full report or exact prescriptive configuration, including linings, studs, cavities and insulation, rather than selecting a rating from a marketing headline.
+Source: 10.7.2
+
+4. Seal joints and avoid bridges: Masonry and panel joints require the specified solid filling, with the stated articulation exception. Double plasterboard layers have staggered joints and sealed interfaces. Timber noggings must not bridge the separate wall leaves. A rigid bridge can create a sound path even when both faces look complete.
+Source: 10.7.3
+
+5. Coordinate services before installation: Services, recesses and penetrations must preserve the sound-insulating arrangement. The provision limits chasing and coordinates outlets and services with the wall construction. A fire-stopping detail and an acoustic detail may both be needed; satisfying one does not establish the other. Resolve the combined service arrangement before drilling or cutting.
+Source: 10.7.4
+
+6. Carry the separation to its termination: A sound-insulating wall continues to the roof underside or to a ceiling that provides the required sound insulation. The listed masonry and framed configurations must be used as complete systems with their relevant construction conditions. An ordinary ceiling is not automatically an acoustic termination simply because it hides the cavity.
+Source: 10.7.1(2); 10.7.5–10.7.8
+
+Practice: A fictional tested assembly has Rw 56 and Ctr −6. What is Rw + Ctr?
+Worked answer: 50. 56 + (−6) = 50. The complete assembly, scope and installation conditions still matter.
+
+Further study: All listed wall assemblies and detailed service clearances require final source verification; NT variation comparison remains outstanding.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=274
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

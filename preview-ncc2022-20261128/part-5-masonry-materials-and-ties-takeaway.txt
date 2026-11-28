@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Choose the brick, mortar and tie together
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 5.6.1–5.6.5: materials, joints, tie duty and placement
+
+1. Start with the wall system: The components pathway is conditional on H1D5(6). Veneer and loadbearing masonry do not use identical unit-strength thresholds. For veneer, solid or cored units need at least 3 MPa and hollow units 10 MPa. Cavity and single-skin masonry use 5 MPa for solid or cored units and 10 MPa for hollow units. Identify the system before reading the product declaration.
+Source: 5.6.1–5.6.2
+
+2. Exposure is a separate property: Protected, General Purpose and Exposure class describe resistance to environmental attack, not the colour or architectural quality of the unit. Exposure class covers severe conditions such as salt attack below a DPC, sea-front salt spray, heavy pollution and cyclic freezing. Mixing clay with concrete or calcium-silicate panels also introduces specified movement interfaces.
+Source: 5.6.2(4)–(6)
+
+3. Match the mortar pathway: Mortar must follow AS 3700 or AS 4773, or the volume proportions in Table 5.6.3. The table distinguishes general use from mixes suitable for concrete masonry. In the general-use column, Protected is 1:2:9, General Purpose 1:1:6 and Exposure class 1:0.5:4.5, in cement:lime:sand order. Additive and concrete-masonry notes remain part of the selection.
+Source: 5.6.3
+
+4. Joint appearance has limits: The nominal bed and perpend joint thickness is 10 mm unless otherwise specified. Raked joints are excluded in saline and heavy industrial airborne-pollution environments. Elsewhere, raking must meet the depth limits and preserve clearance to perforations or hollow cores. A desired recessed look cannot override the exposure restriction.
+Source: 5.6.4
+
+5. Duty and spacing work together: Veneer ties need at least light duty through N2 and medium duty above N2. Cavity ties need light duty at N1 and medium above N1. In veneer, 450 mm stud centres pair with a 600 mm maximum vertical tie spacing; 600 mm stud centres pair with 400 mm vertically. Edge, top, bottom and articulation-joint placements need the separate location table.
+Source: 5.6.5 and Tables 5.6.5a–c
+
+6. Protect the connection: Tie corrosion protection is selected from the exposure table. Severe coastal and industrial locations require the specified stainless steel or compliant engineered-polymer options. The table notes also require at least 50 mm embedment into each masonry leaf and installation that prevents moisture travelling along the tie into the inner leaf or frame.
+Source: Table 5.6.5d and table notes
+
+Practice: A mortar batch uses 2 buckets of cement in the general-use 1:1:6 mix. How many buckets of sand?
+Worked answer: 12. 2 × 6 = 12 buckets of sand. This is ratio practice, not a batching specification.
+
+Further study: Full tie exposure/location tables and all mortar alternatives remain source-reading tasks; product-specific evidence and referenced standards require project review.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=90
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

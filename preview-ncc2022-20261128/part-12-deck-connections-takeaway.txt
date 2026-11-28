@@ -1,0 +1,36 @@
+BUILD COMPASS AU
+Connect the deck to structure
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 12.3.1–12.3.4
+
+1. Confirm the limited attachment route: Part 12.3 applies within H1D11 limits where a deck or balcony relies on the building wall for support. It requires a waling plate and limits the joist span nearest the wall to 3 m. A freestanding deck or a longer-span engineered arrangement needs its own applicable route.
+Source: 12.3.1–12.3.2(a)–(b)
+
+2. Choose the plate for its support: The national detail specifies different minimum timber plate sizes for core-filled masonry and timber framing, as well as a steel plate option. Material grade is part of the requirement. A plate that is wide enough for the screws is not automatically the specified structural section.
+Source: 12.3.2(c)
+
+3. Match spacing to construction: Fixing arrangements distinguish timber, steel and core-filled masonry supports and deck versus tiled-balcony construction. End and edge distances apply as well as maximum centres. The first fixing cannot simply be moved onto the end of the plate to achieve an attractive repeating pattern.
+Source: 12.3.2(d)
+
+4. Get the embedment into the right member: For the specified timber-frame route, No. 14 partial-thread self-drilling screws must embed at least 44 mm into the joist or bearer. Cladding and packing thickness do not count towards that embedment. Confirm the receiving member and its dimensions before selecting overall screw length.
+Source: 12.3.2(e)(i)
+
+5. Use the specified anchor evidence: Steel and core-filled masonry supports have specified bolt or anchor grades, washers and capacity requirements. For the masonry route, the stated working capacities include 2 kN in shear and 1.5 kN in tension. Do not transfer those assumptions to hollow veneer or an unidentified substrate.
+Source: 12.3.2(e)(ii)–(iii)
+
+6. Protect the connection and wall: Fixings within 200 m of breaking surf require stainless steel under the national clause; other areas have the listed corrosion-resistant options. The wall junction also needs a coordinated flashing detail. A structurally adequate connection can still cause damage if it directs water into the wall or uses unsuitable corrosion protection.
+Source: 12.3.2(f) and figures
+
+7. Complete the wall flashing: Where cladding is removed to attach the waling plate, weather-exposed openings need the specified flashings at the top, bottom and sides. Flashing extends at least 150 mm beyond each side where practicable and drains outside. Joints overlap at least 75 mm in the direction of flow, with the specified fastenings and sealant.
+Source: 12.3.3
+
+8. Brace the deck in its plane: Under the stated pathway, a deck more than 1 m above its supporting footing needs the specified diagonally opposed straps across the joists. Strap angles, maximum span, fixings and corrosion conditions apply. A deck extending more than 4 m from the wall needs the secondary strap arrangement. Ledger bolts do not replace this bracing.
+Source: 12.3.4
+
+Practice: A selected screw needs 44 mm structural embedment beyond 35 mm of plate and other intervening material. What minimum simple combined length is this in mm?
+Worked answer: 79. 35 + 44 = 79 mm. Actual fastener selection must also satisfy the complete detail and product requirements.
+
+Further study: Full attachment figures, all plate/fixing combinations and H1D11 scope require final visual and technical verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=317
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

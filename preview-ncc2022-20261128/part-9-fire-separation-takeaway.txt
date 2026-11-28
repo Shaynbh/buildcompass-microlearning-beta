@@ -1,0 +1,37 @@
+BUILD COMPASS AU
+Keep the fire separation continuous
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 9.1; 9.2.1–9.2.10; 9.3.1–9.3.4; 9.4.1–9.4.2: principal routes
+
+1. Start with the separation distance: The national Class 1 external-wall trigger is less than 900 mm from the relevant boundary or less than 1.8 m from another building on the same allotment, with specified exceptions. Distances are measured at right angles under the clause. South Australia has variations, so the national geometry must not be applied without the applicable schedule.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 9.1.1–9.1.2; 9.2.1–9.2.2
+
+2. Choose the external-wall system: The external-wall route includes an FRL of 60/60/60 tested from outside, or the specified minimum 90 mm masonry or masonry-veneer alternatives. The wall must start and terminate as required. A selected fire-rated sheet does not establish a whole wall system, and stopping short at a combustible eaves junction can interrupt the separation.
+Source: 9.2.3(1)–(2)
+
+3. Treat openings deliberately: Openings in a required fire-resisting external wall need the stated protection, including the specified fire-window or self-closing solid-core-door options. Limited non-habitable-room exceptions depend on setback, opening area and construction. Do not treat every bathroom window as exempt merely because the room is not habitable.
+Source: 9.2.3(3)–(5)
+
+4. Include garages in the fire path: An associated Class 10a building can form a route for fire between a boundary and a dwelling, or between dwellings. The alternative protective layouts in 9.2.5–9.2.7 must be selected against the actual arrangement. A garage not directly centred between two buildings can still affect separation.
+Source: 9.2.4–9.2.7
+
+5. Separate dwellings through the roof: Separating walls between Class 1 buildings have a different route from an external boundary wall. Their construction, roof junction, permitted crossings, penetrations and nearby projections must remain coordinated. Services need the specific tested or prescribed treatment in 9.3.2; ordinary expanding foam is not automatically a qualifying fire-stopping system.
+Source: 9.3.1–9.3.4
+
+6. Check an unrelated garage above or below: Part 9.4 addresses a dwelling over or under a private garage not associated with it. It specifies separating wall and floor alternatives, support requirements and preservation of fire performance at penetrations. NSW has a Part 9.4 variation. Do not transfer the detail for an ordinary attached garage without establishing which dwelling the garage serves.
+Source: 9.4.1–9.4.2
+
+7. Check a carport exception against every condition: The national open-carport exception requires at least two open sides and at least one-third of its perimeter open, with a defined 500 mm clearance for a side to count as open. Roof, lining and interface conditions also apply. A vehicle door does not count as an open side. South Australia has a variation.
+Source: 9.2.8
+
+8. Check projections and roof lights separately: Encroachments within the separation space have a defined list of permitted arrangements. Combustible roof lights in a roof required to have non-combustible covering are limited to 20% aggregate area and the specified separation distances. Do not assume a compliant wall setback automatically permits any eave, projection or skylight.
+Source: 9.2.9–9.2.10
+
+Practice: A relevant boundary setback is 750 mm. How much less is it than the 900 mm national trigger distance?
+Worked answer: 150. 900 − 750 = 150 mm. Check the full scope, measurement method and jurisdiction before choosing protection.
+
+Further study: Full alternative fire-separation layout figures, open-carport interface conditions, encroachment options and service-specific penetration details require final verification. NSW and SA schedules need separate comparison before release.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=201
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

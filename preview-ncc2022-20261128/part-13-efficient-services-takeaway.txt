@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Keep the installed services efficient
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 13.7.1–13.7.9
+
+1. Identify the service and its exposure: Part 13.7 applies through H6D2(2) to the stated building and associated pool classes, with jurisdiction variations flagged. Required insulation must withstand service temperatures and be protected from weather and sunlight. A product suitable inside a roof space is not automatically suitable exposed outdoors.
+Source: 13.7.1–13.7.2
+
+2. Insulate hydronic piping by location: Central-heating water piping outside conditioned space uses the material R-values for its particular location and climate. Internal enclosed routes, ventilated spaces and exposed routes have different requirements. The specified R-value is for the insulation, not automatically the combined pipe and air-film value.
+Source: 13.7.3
+
+3. Seal and insulate ductwork: Heating and cooling ducts need the specified air sealing and insulation, with separate values for ducts and fittings. Insulation must remain continuous and retain its thickness, and exposed or specified unconditioned locations need a protected outer sleeve. A draw band alone is not the stated flexible-duct seal without the accompanying sealing arrangement.
+Source: 13.7.4
+
+4. Control resistance heating by room: An electric-resistance heating system serving more than one room needs the specified isolation, temperature and time controls. The national provision also limits power density for living areas and bathrooms. Applying the bathroom allowance to all rooms would ignore the distinct room-use limits.
+Source: 13.7.5
+
+5. Check actual lighting power: The national base allowances are 5 W/m² in Class 1, 4 W/m² on the stated attached outdoor spaces and 3 W/m² in associated Class 10a. Use the proposed installation power, with control adjustments only under their defined method. Do not trade spare allowance between these categories. Jurisdiction variations must be checked.
+Source: 13.7.6
+
+6. Coordinate water heating and pools: Water heaters follow the referenced Plumbing Code pathway. Pool and spa heating have listed energy-source options and conditions for covers, time switches and controls. Spas sharing pool circulation and standalone pump cases must be read carefully. Equipment selection does not remove the associated control and cover requirements.
+Source: 13.7.7–13.7.9
+
+Practice: Using the unadjusted national Class 1 base allowance, what total lamp power corresponds to 100 m² at 5 W/m²?
+Worked answer: 500. 100 × 5 = 500 W. Confirm the applicable jurisdiction, area definition and any valid adjustment method.
+
+Further study: Full duct/piping alternatives, lighting adjustment factors, pool/spa conditions and jurisdiction replacements need final verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=406
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

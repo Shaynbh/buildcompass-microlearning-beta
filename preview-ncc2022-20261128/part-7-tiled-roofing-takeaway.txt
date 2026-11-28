@@ -1,0 +1,33 @@
+BUILD COMPASS AU
+Support the tiles and the water beneath
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 7.3.1–7.3.6: tile fixings, flashings, sarking and discharge
+
+1. Select the tiled-roof pathway: The tiled-roof provisions sit under H1D7 and distinguish product, pitch and support requirements. Tile shape and material alone do not establish suitability for a roof. Confirm the product and roof geometry, then coordinate battens and support with the framing design rather than transferring a sheet-roof arrangement.
+Source: 7.3.1–7.3.2
+
+2. Wind affects tile fixing: Tile fixing is selected from the wind-classification table. Field tiles, perimeter tiles and ridges or hips do not necessarily use the same pattern. The table identifies nails, screws, clips and compliant adhesive systems. Bedding alone must not be assumed to satisfy the nominated mechanical or adhesive fixing requirement.
+Source: 7.3.2
+
+3. Use the actual fixing specification: The listed fixing options include nails with a minimum 2.8 mm diameter and 15 mm penetration, or the specified screw arrangement with 15 mm penetration. Purpose-made clips and the referenced flexible pointing route are separate options. A shorter fixing is not equivalent merely because it holds a tile during installation.
+Source: 7.3.2
+
+4. Know when sarking is required: Sarking is required beneath all tiles below 18 degrees. At higher pitches, the table also limits rafter length without sarking: 4500 mm from 18 to less than 20 degrees, 5500 mm from 20 to less than 22, and 6000 mm at 22 degrees or more. These lengths are measured down from the apex. Where the maximum length is exceeded, the table note requires sarking over the remainder towards the eave line, or equivalent where there are no eaves. Other applicable requirements may still call for sarking.
+Source: 7.3.4
+
+5. Install a continuous drainage layer: Sarking must comply with the specified material standard and be installed with at least 150 mm overlaps or taped joints. Support and fixing keep the layer in place, with sag limited by the provision. Torn or obstructed sarking can interrupt the secondary water path even beneath an otherwise neat tiled finish.
+Source: 7.3.4
+
+6. Prevent water pooling at the eaves: Where sarking is installed, an anti-ponding device or board is required on roofs below 20 degrees and on roofs with no eaves overhang regardless of pitch. Both cases depend on sarking being installed. The board must be water resistant and arranged to carry the sarking towards discharge. Do not create a pocket behind the fascia that holds water against the underlay.
+Source: 7.3.5
+
+7. Flash the penetration and discharge to the gutter: Tile flashings must follow the roof shape and drain the area above a penetration. The national penetration detail uses at least 75 mm upturn and 150 mm surrounding width moulded into the tiles, with flow-directed laps. Where the specified eaves gutter is provided, tiles must overhang the fascia or tiling batten by at least 35 mm.
+Source: 7.3.3; 7.3.6
+
+Practice: A 19 degree roof has a 4800 mm rafter. By how many mm does it exceed the 4500 mm table limit without sarking?
+Worked answer: 300. 4800 − 4500 = 300 mm. Under this table the no-sarking case is exceeded.
+
+Further study: Tile material/pitch details, full wind fixing table and original anti-ponding figures remain visual verification items.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=157
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

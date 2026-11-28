@@ -1,0 +1,33 @@
+BUILD COMPASS AU
+Follow the load through the brickwork
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 5.2.6; 5.3.1–5.3.7; 5.4.1–5.4.5; 5.5.1–5.5.6; 5.6.6; 5.7.6: selection and critical details
+
+1. Identify the system: Cavity masonry has two structural leaves. The national prescriptive route limits overall wall height to 8.5 m and height between lateral supports to 3 m. Cross-walls or steel mullions provide wind support. These limits belong to this specific pathway under H1D5, not to every engineered masonry building.
+Source: 5.3.1–5.3.3
+
+2. Preserve the cavity and supports: Cavity walls use leaves at least 90 mm thick and a 35–75 mm cavity. Insulation and services must not reduce that cavity except for the stated mullion and vertical DPC exceptions. Cross-wall placement depends on openings and wind classification; Table 5.3.3 must be read with its support conditions.
+Source: 5.3.3–5.3.4
+
+3. Single-leaf walls need planned restraint: Single-leaf external walls rely on the specified piers, returns and roof connections. The tables separate height, thickness, roof loads and wind. Openings need support on both sides, and articulation joints must be coordinated with vertical supports. The special Class 10a route has its own building-width, wall-height and N2 wind limits.
+Source: 5.4.1–5.4.5
+
+4. Roof-supporting piers are tied down: The stated roof-supporting pier arrangement uses a minimum 290 mm square pier, maximum 2.7 m height and maximum 3 m centres. Roof bearing is at least 150 mm. Tiled roofs, sheet roofs and freestanding carports have different strap, rod and core requirements. A decorative brick column is not evidence of a continuous roof-to-footing tie.
+Source: 5.5.1–5.5.5
+
+5. Subfloor piers have a different role: Engaged subfloor piers for the limited veneer arrangement have conditions including a single-storey building, roof span no more than 12 m, pier centres no more than 3 m and height no more than 1.2 m. Additional piers are required at openings and concentrated loads. Isolated subfloor piers instead use the size-and-height figure in 5.5.6.
+Source: 5.2.6; 5.5.6
+
+6. Coordinate weather and connections: Masonry roof tie-down over an opening wider than 1200 mm needs specific design. Single-leaf weatherproofing also has a dedicated coating route in 5.7.6, including coverage at floor level and detailed window treatment. Clear water-repellent coating has a roof-overhang condition; it is not interchangeable with every paint system.
+Source: 5.6.6; 5.7.6
+
+7. Carry opening and moisture details across the wall type: Cavity-wall openings use steel lintels complying with 5.6.7, except for the stated adequately supported openings not exceeding 500 mm. Damp-proof courses and flashings follow the referenced material and installation provisions in 5.7.3 and 5.7.4. Do not copy a veneer opening detail without checking the supported leaves and cavity-wall route.
+Source: 5.3.5–5.3.6
+
+Practice: A pier layout has four equal bays of 3 m. What is the total bay length in metres?
+Worked answer: 12. 4 × 3 = 12 m. This layout calculation does not establish suitability of the pier system.
+
+Further study: Detailed pier, cross-wall and single-leaf table selection must be demonstrated against the original figures before release; the national overview does not close every tabulated configuration.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=76
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

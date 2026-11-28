@@ -1,0 +1,34 @@
+BUILD COMPASS AU
+Make every step predictable
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 11.1; 11.2.1–11.2.6
+
+1. Measure the finished geometry: A flight normally has between two and eighteen risers. Riser and going dimensions are measured using the clause figures, not simply the timber tread depth. Floor coverings at the top and bottom can alter the first and last risers, so calculate the finished levels before fabricating or accepting the stair.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 11.1.1–11.1.2; 11.2.1–11.2.2
+
+2. Check all three limits: For stairs other than spiral stairs, the national table gives risers from 115 to 190 mm, goings from 240 to 355 mm and a slope relationship 2R + G from 550 to 700 mm. Passing the slope relationship alone does not excuse a riser or going outside its individual limits.
+Source: Table 11.2.2a
+
+3. Keep the flight consistent: The allowed variation is no more than 5 mm between adjacent risers or goings and no more than 10 mm between the largest and smallest in a flight. Open risers must not allow a 125 mm sphere through under the general rule. Checking only an average can hide a dangerous outlier.
+Source: 11.2.2(1)(c)–(d)
+
+4. Use special stair rules only in scope: Infrequently used non-habitable-room stairs, spiral stairs and winders have specific alternatives. Winders are limited in number and measured at defined positions. An attic used every day cannot be assumed to fit an infrequent-use exception merely because the drawing calls it an attic.
+Source: 11.2.2(2)–(5)
+
+5. Coordinate ramps and landings: The general external-doorway or internal ramp limit is 1:8, with landings at top, bottom and intervals no more than 15 m. Landings generally have at least 750 mm length and a gradient no steeper than 1:50. Livable housing and alpine requirements can require different arrangements.
+Source: 11.2.3; 11.2.5
+
+6. Select grip for wet or dry use: Slip-resistance classes depend on the surface and whether it is expected to become wet. The table distinguishes ramps, tread surfaces and nosing or landing-edge strips. A dry internal test classification is not automatically suitable for an exposed external stair. Obtain the classification for the installed finish.
+Source: 11.2.4
+
+7. Resolve the doorway threshold: Where a doorway threshold is more than 230 mm above the adjoining surface, the national provision requires steps with riser and going dimensions in accordance with 11.2.2. This is read with the separate landing and applicable livable-housing provisions. A single oversized drop is not made acceptable by calling it a threshold.
+Source: 11.2.6
+
+Practice: For an ordinary stair with R = 175 mm and G = 270 mm, calculate 2R + G in mm.
+Worked answer: 620. 2 × 175 + 270 = 620 mm. The individual values also fit the general table; consistency, structure and other details remain separate.
+
+Further study: Original winder/spiral figures and complete landing exceptions require visual verification; structural loading and jurisdiction applicability remain separate checks.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=289
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

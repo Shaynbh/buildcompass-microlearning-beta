@@ -1,0 +1,31 @@
+BUILD COMPASS AU
+Keep the sheet roof draining
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 7.1.1–7.1.2; 7.2.1–7.2.8
+
+1. Confirm the roofing route: Part 7.2 is the metal-sheet roofing pathway subject to H1D7. It is not a blanket approval for every profile or roof shape. Identify the profile, base metal thickness, wind class and support layout before using the spacing and fixing provisions. Manufacturer information must describe the actual selected product.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 7.1.1–7.1.2; 7.2.1
+
+2. Read water flow as a material connection: Compatibility applies to materials in contact and to water draining from one material onto another. Copper upstream of galvanised steel and lead upstream of aluminium/zinc-coated steel are examples that need attention. Lead is also excluded where runoff is collected for drinking. A small flashing can affect the roof below it.
+Source: 7.2.2
+
+3. Pitch belongs to the profile: The minimum-pitch figure identifies different sheet profiles. A pitch suitable for one profile is not automatically suitable for corrugated or trapezoidal roofing. Check the actual installed pitch, including construction tolerances and deflection, against the nominated profile and pathway before setting out the supporting structure.
+Source: 7.2.3
+
+4. Supports and fasteners are a system: Sheet span and fixing selection depend on profile, thickness, wind classification and location on the roof. End spans and internal spans must not be confused. Check the table notes and the specified fastener arrangement before work is concealed; extra fasteners do not automatically validate an excessive support spacing.
+Source: 7.2.4–7.2.5
+
+5. Lap in the direction of drainage: Full-length sheets from fascia to ridge are preferred by the provision where practicable. Where end laps are used, the specified minimum changes with pitch: 150 mm above 15 degrees and 200 mm between 5 and 15 degrees. The detail also addresses turning up sheet ends at ridges and valleys.
+Source: 7.2.6
+
+6. Finish the water path: Flashings are formed from compatible material and arranged to drain out over the roofing. The provision specifies at least 75 mm flashing laps in the direction of flow and fastening near the lap. Penetrations must preserve drainage and any affected framing. At an eaves gutter, the sheet overhang detail is also part of collection.
+Source: 7.2.7–7.2.8
+
+Practice: At a 10 degree roof pitch, two end laps each require 200 mm. What combined lap allowance is needed in mm?
+Worked answer: 400. 200 + 200 = 400 mm. This is a material-length exercise, not a roof design.
+
+Further study: All profile drawings, full span and fastener tables need visual/source review before this module is released.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=146
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Put the alarm where it can do its job
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 9.5.1–9.5.5
+
+1. Identify the building class: Class 1a dwellings and Class 1b accommodation do not have identical alarm-location requirements. Start by identifying the actual classification and applicable jurisdiction. NSW has a variation flagged in the national source, and local requirements may add to this teaching example. Do not substitute a rental-property checklist for the NCC pathway without checking both.
+Source: 9.5.1–9.5.3
+
+2. Check the product and supply: Smoke alarms are required to comply with AS 3786 under this national provision. Where the building has a consumer mains supply, the alarms use that supply. Product selection and electrical installation are separate from deciding the number of alarms. Keep the product and installation evidence with the handover information.
+Source: 9.5.1
+
+3. Connect the alarms within the dwelling: Where more than one alarm is installed, they must be interconnected. The explanatory information applies this within a single dwelling rather than requiring alarms in neighbouring dwellings to sound together. Confirm the connection is functional and compatible with the chosen products instead of assuming two independent alarms provide the same warning.
+Source: 9.5.1(d)
+
+4. Cover bedrooms and other storeys: For Class 1a, locate alarms in bedroom corridors or hallways, or between bedrooms and the rest of the building when there is no such corridor, and on other storeys without bedrooms. Class 1b also requires alarms in each bedroom. A split-level or separated bedroom arrangement needs its actual layout checked.
+Source: 9.5.2–9.5.3
+
+5. Keep the alarm out of dead air: Alarm location is constrained by ceiling and wall geometry. The national details include clearance from corners and a separate location range below the apex of a sloping ceiling. Wall mounting is a conditional option where ceiling mounting is not possible. Follow the clause and compatible product instructions rather than choosing the easiest cable location.
+Source: 9.5.4
+
+6. Resolve special locations and evacuation lighting: Where a private garage is likely to cause spurious smoke signals, the national clause permits a suitable alternative alarm under AS 1670.1 while retaining smoke alarms elsewhere in the Class 1 building. Class 1b evacuation lighting has its own activation requirements. Neither exception is a reason to remove warning from the building.
+Source: 9.5.1(b); 9.5.5
+
+Practice: A fictional Class 1b layout has four bedrooms and one bedroom corridor. Counting only those listed locations, how many alarms are indicated?
+Worked answer: 5. 4 + 1 = 5. Other storeys, geometry, jurisdiction and the complete layout may add requirements.
+
+Further study: Original location diagrams, Class 1b lighting details and jurisdiction additions require final technical verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=236
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

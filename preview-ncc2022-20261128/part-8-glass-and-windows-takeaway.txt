@@ -1,0 +1,31 @@
+BUILD COMPASS AU
+Choose glass for wind, impact and use
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 8.1.1–8.1.2; 8.2.1–8.2.2; 8.3.1–8.3.3; 8.4.1–8.4.8
+
+1. Assembly and pane are different checks: Section 8 separates window assemblies from glass selection. Its simplified provisions exclude particular arrangements, including several non-vertical, frameless and special-purpose installations. Identify the assembly pathway and its scope before selecting pane thickness. A glass invoice does not establish performance of the whole frame and fixing system.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 8.1.1–8.1.2; 8.4.1; 8.2.1; 8.3.1
+
+2. Leave room above the frame: Windows must not carry building loads. Installation includes packing and fixing that keep the frame straight, with at least a 10 mm gap above the frame under this detail. Wider openings or structural movement may require more allowance. Do not bridge the head gap with rigid material that transfers unintended loads.
+Source: 8.2.2
+
+3. Select glass for the actual panel: The glass tables distinguish type, thickness, panel dimensions and wind classification within their scope. Fully framed support is an important condition. A larger pane may leave the selected table entry even if the window opening stays in the same wall. Human-impact requirements must then be checked separately.
+Source: 8.3.2–8.3.3
+
+4. Recognise doors and side panels: Doors, nearby side panels and glazing that could be mistaken for an opening have specific safety-glass requirements and limited exceptions. For side panels the nearest sight line within 300 mm of the door is important. Do not assume an adjacent fixed panel is harmless because it does not open.
+Source: 8.4.2–8.4.4
+
+5. Check low glass and wet areas: Low-level glazing and glazing in kitchens, bathrooms and spa areas use different trigger heights and exceptions. The wet-area provision addresses glazing below 2 m and distinguishes framed glass from exposed edges. A general low-window rule is not a substitute for checking the wet-area location and the specific permitted exceptions.
+Source: 8.4.5–8.4.6
+
+6. Make glass visible and identifiable: Where required, a visible opaque band helps people recognise glazing, but it does not replace the required safety-glass grade. Safety-glass identification records the relevant standard and product information. Check both visibility and evidence before handover rather than relying on the assumption that all new glass is safety glass.
+Source: 8.4.7–8.4.8
+
+Practice: The nearest side-panel sight line is 250 mm from a door. How far inside the 300 mm side-panel threshold is it?
+Worked answer: 50. 300 − 250 = 50 mm. Apply the full side-panel provision and its exceptions to the actual panel.
+
+Further study: Full glass tables, all safety-glazing exceptions and the original diagrams need final technical and visual verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=188
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

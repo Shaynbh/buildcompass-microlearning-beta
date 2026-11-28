@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Move moist air outside
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 10.6.1–10.6.3; 10.8.1–10.8.3
+
+1. Choose the room ventilation route: The natural-ventilation route uses openings with a ventilating area at least 5% of the room floor area, opening to the stated outdoor or adjoining space. Mechanical alternatives apply under their specified conditions. Do not confuse the light-transmitting area of a fixed pane with its ability to ventilate a room.
+Source: 10.6.1–10.6.2
+
+2. Borrow air only under the conditions: Borrowed ventilation requires the internal opening and the external opening for the combined room areas to satisfy the provision. Neither room can be a sanitary compartment under this borrowed-air route. A sanitary compartment opening directly into a kitchen or pantry needs the specified separation or mechanical-exhaust arrangement.
+Source: 10.6.2–10.6.3
+
+3. Match membrane permeance to climate: External wall membranes must follow the material and installation standards and sit outside the primary insulation layer. The national minimum vapour permeance is 0.143 μg/N.s in climate zones 4 and 5, and 1.14 in zones 6–8. Water resistance and vapour permeability describe different behaviour; a foil face is not automatically suitable.
+Source: 10.8.1
+
+4. Discharge exhaust outdoors: The minimum exhaust flow is 25 L/s for a bathroom or sanitary compartment and 40 L/s for a kitchen or laundry. Exhaust must discharge to outdoor air, directly or through a shaft or duct. Venting clothes dryers also discharge outdoors. Emptying a duct into the roof space is not that arrangement.
+Source: 10.8.2(1)–(3)
+
+5. Provide run-on and make-up air: A non-continuous bathroom or toilet exhaust serving a room without the specified natural ventilation must be interlocked with the light and run for 10 minutes after switch-off. The relevant rooms also need make-up air, using the 14,000 mm² free-opening option or AS 1668.2. Dryer make-up air has its own referenced route.
+Source: 10.8.2(4)–(6)
+
+6. Vent the roof space where required: In climate zones 6–8, the national roof-space provision specifies location above the insulation or qualifying layer, at least 20 mm height and the relevant ventilation arrangement. Opening areas depend on pitch, with an additional eaves requirement for cathedral ceilings. Concrete roofs, structural insulated panels and BAL-FZ roofs have stated exceptions.
+Source: 10.8.3
+
+Practice: A door undercut is 20 mm high and 700 mm wide. What unobstructed opening area in mm² does that rectangle provide?
+Worked answer: 14000. 20 × 700 = 14,000 mm². Confirm actual free area and whether the applicable exhaust route needs more.
+
+Further study: Whole-wall moisture modelling, all alternative ventilation pathways and jurisdiction application require project-specific review; the roof-space table needs final visual verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=271
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

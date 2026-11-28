@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Seal unwanted leaks. Keep planned air paths.
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 13.4.1–13.4.7; 13.5.1–13.5.2
+
+1. Check the sealing application: Part 13.4 applies through H6D2 and includes defined exceptions, including certain evaporatively cooled buildings and permanent ventilation needed for gas-appliance safety. Climate and jurisdiction matter. Do not seal a required combustion-air opening simply because it feels draughty.
+Source: 13.4.1
+
+2. Close an unused open-fire path: An open solid-fuel appliance chimney or flue needs a damper or flap that can close to seal it under this provision. This works alongside the fire-safety installation requirements in Part 12.4. The energy detail cannot override safe appliance operation or be improvised from an unsuitable combustible closure.
+Source: 13.4.2
+
+3. Seal doors, windows and roof lights: The required sealing depends on conditioned-space use and the stated habitable-room climate conditions. Door bottoms use a draught-protection device; other edges use appropriate sealing, with the AS 2047 window exception. Roof lights have their own sealing options. A gap hidden behind trim is not automatically an effective seal.
+Source: 13.4.3–13.4.4
+
+4. Seal fan and lining interfaces: Relevant exhaust fans need the specified sealing device, while ceiling, wall and floor junctions must minimise air leakage. Penetrations and frame interfaces are part of the thermal envelope. Coordinate seals with exhaust discharge and make-up air under Part 10.8 rather than closing every opening indiscriminately.
+Source: 13.4.5–13.4.6
+
+5. Check evaporative-cooler dampers: An evaporative cooler serving a heated space or the specified habitable rooms in climate zones 4–8 needs a self-closing damper or equivalent. Its function is to limit unwanted air movement when the cooler is not operating. The application must be read with the earlier exceptions, not reduced to a universal rule for every climate.
+Source: 13.4.7
+
+6. Choose fans by room and climate: The national ceiling-fan pathway operates through H6D2(1)(b), with jurisdiction variations flagged. Table 13.5.2 distinguishes bedrooms from other habitable rooms and uses room-area bands for number and diameter. A single small fan is not automatically the prescribed arrangement for a large living area.
+Source: 13.5.1–13.5.2
+
+Practice: For the national table example, a 32 m² non-bedroom habitable room in the applicable climate uses two 1400 mm fans. How many fans are required by that entry?
+Worked answer: 2. The entry is 2 × 1400 mm. Confirm route, jurisdiction and installation conditions before applying it.
+
+Further study: Jurisdiction applicability and the complete fan table need final review; this does not assess appliance ventilation design.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=399
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

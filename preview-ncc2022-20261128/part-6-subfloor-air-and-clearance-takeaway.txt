@@ -1,0 +1,31 @@
+BUILD COMPASS AU
+Give the subfloor a clear air path
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 6.1.1–6.1.2; 6.2.1
+
+1. Know what Section 6 contains: Housing Provisions Section 6 contains subfloor ventilation and structural steel members. Timber framing, steel framing and structural software also have pathways in Volume Two H1D6. Part 6.2 applies to suspended floors and decks, including timber, steel and suspended concrete. Do not invent a timber-framing Part inside this Section.
+Before applying these details, identify the relevant Volume Two pathway and read the state or territory schedule. Scope clauses identify the subjects covered; they do not make every detail applicable to every building. Use the defined terms and original figures where the provision depends on geometry.
+Source: 6.1.1–6.1.2; 6.1.1
+
+2. Use the correct climate map: Subfloor humidity zones A, B and C are taken from Figure 6.2.1a. They are not the eight energy-efficiency climate zones. Without a ground membrane, the minimum aggregate opening areas per metre of wall are 2000, 4000 and 6000 mm² respectively. With the ground sealed by an impervious membrane, the corresponding values are 1000, 2000 and 3000 mm².
+Source: 6.2.1(1) and Table 6.2.1a
+
+3. Provide a route through the walls: Clear debris and vegetation, grade the ground to the drainage provision and avoid dead air spaces. Distribute openings evenly where practicable, with openings no more than 600 mm in from corners. In double-leaf masonry, align openings in both leaves. Internal subfloor walls need unobstructed area equivalent to the adjacent external openings.
+Source: 6.2.1(2)–(4)
+
+4. Measure to the lowest member: Ground clearance is measured to the underside of the lowest horizontal member. The table gives 150 mm where termite inspection or a management system is not required and 400 mm where inspection is required. Notes explain when the 400 mm requirement applies and a limited sloping-site reduction near external walls. Do not apply that reduction across the whole subfloor.
+Source: Table 6.2.1b
+
+5. Treat dampness as an additional condition: Excessively damp or frequently flooded subfloors need an additional measure beyond the preceding requirements. The listed alternatives include a 50% ventilation increase, an impervious ground membrane, or specified durable/treated timber or steel framing. They have material and application conditions. The clause does not excuse poor grading or a blocked air path.
+Source: 6.2.1(5)
+
+6. Keep the opening free: Use unobstructed opening area when checking the airflow path. Grilles and later storage can reduce the effective opening. Where walls cannot be vented, the notes require additional measures to maintain the overall ventilation level. A blank rectangle on a drawing is not evidence of the installed open area or an agreed alternative arrangement.
+Source: 6.2.1 and Table 6.2.1a notes
+
+Practice: For a fictional 5 m wall in zone B without a ground membrane, what aggregate opening area is required in mm²?
+Worked answer: 20000. 4000 × 5 = 20,000 mm². Distribution, internal walls and other conditions still apply.
+
+Further study: The original map and sloping-clearance figures must be read for the actual location and geometry. Referenced framing standards are not reproduced.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=108
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.

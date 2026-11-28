@@ -1,0 +1,30 @@
+BUILD COMPASS AU
+Keep heat away from combustible construction
+NCC 2022 Housing Provisions national text, 1 May 2023. Review draft.
+Coverage: 12.4.1–12.4.5
+
+1. Choose the installation pathway: Part 12.4 provides the stated solid-fuel appliance arrangements, with the H7D5(a) alternative recognised by its application clause. Identify whether the installation is an open fireplace, insert or freestanding appliance. Do not mix clearances from unrelated tested products or assume a gas-appliance detail is the solid-fuel route.
+Source: 12.4.1
+
+2. Provide a non-combustible hearth: For the stated open fireplace, the hearth extends at least 300 mm in front and 150 mm each side of the opening. The upper surface must not slope away from the back hearth, and combustible material around or below the edge has a specified separation. Measure the complete section, not just the visible tile outline.
+Source: 12.4.2(b)
+
+3. Build the fireplace and chimney as specified: The open-fireplace wall arrangement uses specified masonry leaves, unit properties and footing support. The chimney lining has a specified mortar parging treatment. These are construction conditions, not merely decorative choices. A thin brick slip finish over a combustible backing is not the prescribed masonry fireplace assembly.
+Source: 12.4.2(c)–(d); 12.4.3
+
+4. Terminate above nearby building surfaces: The chimney or flue terminates at least 300 mm above the highest building part within a horizontal distance of 3.6 m under this provision. Nearby roof changes can therefore alter the required termination. Read the original figure and the applicable installation pathway rather than measuring only above the immediate roof penetration.
+Source: 12.4.3(c)
+
+5. Install an insert with its tested flue: Insert fireplaces and flues must satisfy the specified AS/NZS 2918 testing and be fitted into the required masonry arrangement. The national detail includes a double-skin flue and 50 mm clearance between the outer flue and adjacent materials. Roof flashing, termination and hearth details still need coordination.
+Source: 12.4.4
+
+6. Treat freestanding heaters separately: Freestanding appliances use tested safety clearances or the stated alternative arrangements, including qualifying heat shields. The hearth and flue have their own conditions. A decorative panel is not automatically the required heat shield. Where the figures do not cover the installation, the referenced standard provides the route.
+Source: 12.4.5
+
+Practice: The highest relevant building part is at level 5400 mm. What minimum termination level follows by adding 300 mm?
+Worked answer: 5700. 5400 + 300 = 5700 mm for this simplified geometry. Confirm the applicable pathway and full surrounding geometry.
+
+Further study: Original heat-shield, hearth and flue figures and product-specific test evidence require final verification.
+Official source: https://ncc.abcb.gov.au/system/files/ncc/ncc2022-abcb-housing-provisions.pdf#page=322
+General education, not project certification or accredited CPD. Confirm approval edition and jurisdiction.
+BETTER KNOWLEDGE. BETTER CONSTRUCTION. TOGETHER.
