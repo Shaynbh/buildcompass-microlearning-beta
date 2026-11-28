@@ -1,0 +1,6 @@
+NCC 2022 review preview, 28 November 2026.
+26 new draft lessons. 16 existing lessons linked unchanged.
+HTTPS preview deployed. Final library release not performed.
+Five takeaway downloads verified against source files. Desktop checks partially completed; mobile checks pending. Background browser download operations have repeatedly lost connection.
+Technical review remains in progress. Publication approval is recorded, contingent on completing the requested checks.
+This is a publicly reachable review preview with noindex metadata, not authenticated private hosting.

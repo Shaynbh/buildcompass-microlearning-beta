@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-28",
+  "scope": "NCC2022 Housing Provisions national sequence",
+  "existing": 16,
+  "newModules": 26,
+  "modules": [
+    {
+      "id": "part-5-masonry-materials-and-ties",
+      "category": 5,
+      "coverage": "5.6.1–5.6.5: materials, joints, tie duty and placement",
+      "remaining": "Full tie exposure/location tables and all mortar alternatives remain source-reading tasks; product-specific evidence and referenced standards require project review.",
+      "sha256": "278409f7debb27fa2666dfaf76a3c737e9839f91f91f5a21ab879f9dcb266302",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-5-movement-and-lintels",
+      "category": 5,
+      "coverage": "5.2.5; 5.3.7; 5.4.4; 5.6.7–5.6.8",
+      "remaining": "Boundary cases not expressly resolved by wording, full articulation figures and project structural design remain for the relevant designer. No whole-Part completion is claimed.",
+      "sha256": "5ad9fe38873ec79c0fef0482974f6c995cd9d7dd91b85578825c8eb958f313a1",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-6-subfloor-air-and-clearance",
+      "category": 6,
+      "coverage": "6.1.1–6.1.2; 6.2.1",
+      "remaining": "The original map and sloping-clearance figures must be read for the actual location and geometry. Referenced framing standards are not reproduced.",
+      "sha256": "0056ca2a7d19bb56b0bbb6591eb3325d2809987bb8b27e8ed624b5049cbb5bf0",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-5-loadbearing-walls-and-piers",
+      "category": 5,
+      "coverage": "5.2.6; 5.3.1–5.3.7; 5.4.1–5.4.5; 5.5.1–5.5.6; 5.6.6; 5.7.6: selection and critical details",
+      "remaining": "Detailed pier, cross-wall and single-leaf table selection must be demonstrated against the original figures before release; the national overview does not close every tabulated configuration.",
+      "sha256": "74262fc74d5942da790b871d6e427f05f5d6896d6e0100322b629951346ece94",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-6-structural-steel",
+      "category": 6,
+      "coverage": "6.3.1–6.3.9",
+      "remaining": "Original span tables, connection and penetration figures require table-by-table visual verification; this lesson teaches the selection process and critical conditions, not an automated steel design.",
+      "sha256": "6a4e2788411ccde2078880d74684d67546c046bf29fe55c472729f48c9278432",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-7-sheet-roofing",
+      "category": 7,
+      "coverage": "7.1.1–7.1.2; 7.2.1–7.2.8",
+      "remaining": "All profile drawings, full span and fastener tables need visual/source review before this module is released.",
+      "sha256": "21cdbcb0673cb42e6e73730ada20316762bee3200baf5969e14a567f3c848524",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-7-tiled-roofing",
+      "category": 7,
+      "coverage": "7.3.1–7.3.6: tile fixings, flashings, sarking and discharge",
+      "remaining": "Tile material/pitch details, full wind fixing table and original anti-ponding figures remain visual verification items.",
+      "sha256": "b8c4f9d3d5f5274d0538252986ecde916b4b8391c345ca09321c5610e8e8bad9",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-7-roof-drainage",
+      "category": 7,
+      "coverage": "7.4.1–7.4.7",
+      "remaining": "Rainfall tables, complete catchment sizing and all overflow geometries require source-table and visual verification. This is not a hydraulic sizing calculator.",
+      "sha256": "43446dc18995833023ca81a157a3d2ee47561399a7bd0c8e879e9d3220de58df",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-7-wall-cladding",
+      "category": 7,
+      "coverage": "7.5.1–7.5.8",
+      "remaining": "Full fixing schedules, material exceptions and original flashing/capping figures need final visual verification.",
+      "sha256": "48c7b9a5486bf9a644e74fe314b0550c2bb0ec695a32c5caa4222716b2b9fd3a",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-8-glass-and-windows",
+      "category": 8,
+      "coverage": "8.1.1–8.1.2; 8.2.1–8.2.2; 8.3.1–8.3.3; 8.4.1–8.4.8",
+      "remaining": "Full glass tables, all safety-glazing exceptions and the original diagrams need final technical and visual verification.",
+      "sha256": "247d4dc33a57e9db382ab6503c19c32de99ab78005dea120ace09c272965ca40",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-9-fire-separation",
+      "category": 9,
+      "coverage": "9.1; 9.2.1–9.2.10; 9.3.1–9.3.4; 9.4.1–9.4.2: principal routes",
+      "remaining": "Full alternative fire-separation layout figures, open-carport interface conditions, encroachment options and service-specific penetration details require final verification. NSW and SA schedules need separate comparison before release.",
+      "sha256": "87be8d96fcffd06c650192ea7b3f64f2ef2c4c7fc232bb7a5eab477f3a261035",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-9-smoke-alarms",
+      "category": 9,
+      "coverage": "9.5.1–9.5.5",
+      "remaining": "Original location diagrams, Class 1b lighting details and jurisdiction additions require final technical verification.",
+      "sha256": "29a724983de41068b20971f173ba84f0aa3b80c94bdaed58d3d491df25bdc306",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-10-wet-area-waterproofing",
+      "category": 10,
+      "coverage": "10.1; 10.2.1–10.2.32: extent, materials and connected details",
+      "remaining": "Full bath, bidet, shower-screen and all threshold figures require final clause-by-clause verification. The module is a connected-system lesson, not certification of a waterproofing installation.",
+      "sha256": "8f042709b61ce7df323e7e5d5710e469b5a9bd757fd7d245fbb277251662b317",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-10-room-amenity",
+      "category": 10,
+      "coverage": "10.3.1; 10.4.1–10.4.2; 10.5.1–10.5.2",
+      "remaining": "Original room-height and sanitary-door figures, detached-facility conditions and all lighting alternatives require final review.",
+      "sha256": "67611e5ba85b5427cb9e439723c2fd55781cc4cc370def974d358870f54291dc",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-10-ventilation-and-condensation",
+      "category": 10,
+      "coverage": "10.6.1–10.6.3; 10.8.1–10.8.3",
+      "remaining": "Whole-wall moisture modelling, all alternative ventilation pathways and jurisdiction application require project-specific review; the roof-space table needs final visual verification.",
+      "sha256": "c87a4477d0783d9be3eb7d54bbbb54c07aa07b855128a4724371255614f7baad",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-10-sound-insulation",
+      "category": 10,
+      "coverage": "10.7.1–10.7.8",
+      "remaining": "All listed wall assemblies and detailed service clearances require final source verification; NT variation comparison remains outstanding.",
+      "sha256": "7bded2575fbc94c7e45f40bfec096aa2e517b4cb861f14b054922d9795537592",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-11-stairs-and-ramps",
+      "category": 11,
+      "coverage": "11.1; 11.2.1–11.2.6",
+      "remaining": "Original winder/spiral figures and complete landing exceptions require visual verification; structural loading and jurisdiction applicability remain separate checks.",
+      "sha256": "a106161efe20afa86bb6f15915852ecc3e91b15092f7b1e1dc5ca15d49074c70",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-11-barriers-handrails-windows",
+      "category": 11,
+      "coverage": "11.3.1–11.3.8",
+      "remaining": "Complete wire tables and all window release/barrier scenarios need final visual and technical review.",
+      "sha256": "d91e61dee7d3051c2c36dbc5e1f9035d5e1c08263e03adf84277466c152e1530",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-12-alpine-construction",
+      "category": 12,
+      "coverage": "12.1.1–12.1.2; 12.2.1–12.2.4",
+      "remaining": "Original clearance figures, the defined alpine boundary and jurisdiction application require final review.",
+      "sha256": "3871b293ca4c86590a90bcafcd9b9ace371748821fefafedd90331da43851dd9",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-12-deck-connections",
+      "category": 12,
+      "coverage": "12.3.1–12.3.4",
+      "remaining": "Full attachment figures, all plate/fixing combinations and H1D11 scope require final visual and technical verification.",
+      "sha256": "38baa30a83f0dae8118342f4f701fe3fcb9e99ad73d384205eae178ce0624649",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-12-heaters-and-flues",
+      "category": 12,
+      "coverage": "12.4.1–12.4.5",
+      "remaining": "Original heat-shield, hearth and flue figures and product-specific test evidence require final verification.",
+      "sha256": "985e90d2fb622128c1ab85c5ea74deef773e0463f743f8571865c67ef6c4535f",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-13-building-fabric",
+      "category": 13,
+      "coverage": "13.1; 13.2.1–13.2.7",
+      "remaining": "All climate-specific fabric tables, roof insulation-loss adjustments and jurisdiction substitutions need final detailed verification. No whole-of-home compliance calculation is produced by this lesson.",
+      "sha256": "f0ebdfe5b5126d656ee734d00fce74309a29b126dddd5837ddf24cd23db39c39",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-13-glazing-and-shading",
+      "category": 13,
+      "coverage": "13.3.1–13.3.4",
+      "remaining": "Complete winter/summer formula transcription, factor tables and original P/H geometry require final verification; this lesson does not implement a compliance calculator.",
+      "sha256": "7622d639f50fd91e141f98083047c57064075906c2777b751f9b66c443773d15",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-13-sealing-and-fans",
+      "category": 13,
+      "coverage": "13.4.1–13.4.7; 13.5.1–13.5.2",
+      "remaining": "Jurisdiction applicability and the complete fan table need final review; this does not assess appliance ventilation design.",
+      "sha256": "d0fc8657b13a2937ab23b903575cfa063acfc2f92d5aa4c62b56778a17d9157c",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-13-whole-of-home-energy",
+      "category": 13,
+      "coverage": "13.6.1–13.6.2",
+      "remaining": "The referenced Whole-of-Home Efficiency Factors standard, complete equation and jurisdiction substitutions remain required verification before release. No financial saving or compliance outcome is promised.",
+      "sha256": "3dfe87f2455eaab055d4cc28bfefe9189ccae0910ff68a75f385eb7c9698f381",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    },
+    {
+      "id": "part-13-efficient-services",
+      "category": 13,
+      "coverage": "13.7.1–13.7.9",
+      "remaining": "Full duct/piping alternatives, lighting adjustment factors, pool/spa conditions and jurisdiction replacements need final verification.",
+      "sha256": "206970f876c5f4ec2bf7181da26d6f56ac1e9796c0989001f861b67bed415094",
+      "logicChecks": "passed",
+      "browserQA": "pending",
+      "release": "not approved"
+    }
+  ],
+  "releaseApproval": "approved after requested checks; technical and browser checks incomplete"
+}
